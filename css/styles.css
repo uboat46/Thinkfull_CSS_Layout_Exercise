@@ -65,8 +65,9 @@ main{
 	display: inline-block;
 	margin:0;
 	padding: 2px;
-	font-size: 35px;
+	font-size: 20px;
 	float: left;
+	margin-bottom: 30px;
 }
 .selector>:nth-child(1){
 	border-radius: 5px 0 0 5px;
@@ -78,8 +79,10 @@ main{
 }
 .job{
 	display: block;
+	clear: both;
 	float: left;
 }
 .job *{
 	display: inline-block;
+	margin: 8px 0;
 }
